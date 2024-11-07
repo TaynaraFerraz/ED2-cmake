@@ -1,0 +1,3 @@
+C:/Users/Taynara Ferraz/Desktop/ED2/teste/build/CMakeFiles/hello.dir
+C:/Users/Taynara Ferraz/Desktop/ED2/teste/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Taynara Ferraz/Desktop/ED2/teste/build/CMakeFiles/ZERO_CHECK.dir

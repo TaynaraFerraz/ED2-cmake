@@ -1,0 +1,10 @@
+^C:\USERS\TAYNARA FERRAZ\DESKTOP\ED2\TESTE\BUILD\CMAKEFILES\A0FB3C912104D3C0371ACEEFED87F5DB\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Taynara Ferraz/Desktop/ED2/teste" "-BC:/Users/Taynara Ferraz/Desktop/ED2/teste/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Taynara Ferraz/Desktop/ED2/teste/build/Hello.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
